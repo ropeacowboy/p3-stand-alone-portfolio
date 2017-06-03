@@ -1,0 +1,26 @@
+/* Styling */
+
+
+@import url('https://fonts.googleapis.com/css?family=Baloo');
+
+wrapper{
+    max-width:1200px;
+    
+}
+
+
+body {
+    background: #f6e7fd;
+    margin-top: 0;
+}
+
+h2 {
+  color: white;
+    background-color:black;
+    border-radius: 20px;
+  font-size: 40em;
+  font-family: 'Baloo', cursive;
+  text-transform: uppercase;
+  text-align: center;
+    padding: 0 auto;
+}
