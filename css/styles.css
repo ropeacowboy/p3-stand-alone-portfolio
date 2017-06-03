@@ -3,8 +3,9 @@
 
 @import url('https://fonts.googleapis.com/css?family=Baloo');
 
-wrapper{
-    max-width:1200px;
+#wrapper{
+/*    max-width:1200px;*/
+    display: inline;
     
 }
 
@@ -22,5 +23,17 @@ h2 {
   font-family: 'Baloo', cursive;
   text-transform: uppercase;
   text-align: center;
-    padding: 0 auto;
+
+}
+
+#wrapper{
+  display: flex;
+    flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.thumb img{
+
+
 }
