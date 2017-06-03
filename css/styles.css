@@ -19,10 +19,11 @@ h2 {
   color: white;
     background-color:black;
     border-radius: 20px;
-  font-size: 40em;
+  font-size: 12em;
   font-family: 'Baloo', cursive;
   text-transform: uppercase;
   text-align: center;
+    padding: .3em;
 
 }
 
@@ -33,7 +34,3 @@ h2 {
   justify-content: flex-start;
 }
 
-.thumb img{
-
-
-}

@@ -1,3 +1,3 @@
 // Scripts
 
-$('h2').fitText(.5);
+$('h2').fitText(.9);
