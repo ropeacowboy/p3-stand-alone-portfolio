@@ -5,3 +5,7 @@ body {
   background-color: red; }
 
 /*# sourceMappingURL=styles.css.map */
+
+display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
