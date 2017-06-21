@@ -1,36 +1,41 @@
-/* Styling */
+@import url(styles.css);
+@import url(normalize.css);
+/* line 6, C:/Users/hatch/Documents/website/p3-stand-alone-portfolio/css/styles.scss */
+#wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
 
+/* line 12, C:/Users/hatch/Documents/website/p3-stand-alone-portfolio/css/styles.scss */
+#wrapper div {
+  padding: 15px; }
 
-@import url('https://fonts.googleapis.com/css?family=Baloo');
+/* line 16, C:/Users/hatch/Documents/website/p3-stand-alone-portfolio/css/styles.scss */
+#wrapper {
+  /*    max-width:1200px;*/
+  display: inline; }
 
-#wrapper{
-/*    max-width:1200px;*/
-    display: inline;
-    
-}
-
-
+/* line 23, C:/Users/hatch/Documents/website/p3-stand-alone-portfolio/css/styles.scss */
 body {
-    background: #f6e7fd;
-    margin-top: 0;
-}
+  background: #f6e7fd;
+  margin-top: 0; }
 
+/* line 28, C:/Users/hatch/Documents/website/p3-stand-alone-portfolio/css/styles.scss */
 h2 {
   color: white;
-    background-color:black;
-    border-radius: 20px;
-  font-size: 12em;
+  background-color: black;
+  border-radius: 20px;
   font-family: 'Baloo', cursive;
   text-transform: uppercase;
   text-align: center;
-    padding: .3em;
+  padding: .3em; }
 
-}
-
-#wrapper{
+/* line 40, C:/Users/hatch/Documents/website/p3-stand-alone-portfolio/css/styles.scss */
+#wrapper {
+  margin: 0 auto;
   display: flex;
-    flex-direction: row;
+  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-start;
-}
+  justify-content: flex-start; }
 
+/*# sourceMappingURL=styles.css.map */

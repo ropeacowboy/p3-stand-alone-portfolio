@@ -1,0 +1,47 @@
+@import "styles.css";
+@import "normalize.css";
+
+
+
+#wrapper {
+display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#wrapper div{
+    padding: 15px;
+}
+
+#wrapper{
+/*    max-width:1200px;*/
+    display: inline;
+    
+}
+
+
+body {
+    background: #f6e7fd;
+    margin-top: 0;
+}
+
+h2 {
+  color: white;
+    background-color:black;
+    border-radius: 20px;
+//  font-size: 12em;
+  font-family: 'Baloo', cursive;
+  text-transform: uppercase;
+  text-align: center;
+    padding: .3em;
+
+}
+
+#wrapper{
+    margin: 0 auto;
+  display: flex;
+    flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
