@@ -8,19 +8,21 @@
 
 /* line 12, C:/Users/hatch/Documents/website/p3-stand-alone-portfolio/css/styles.scss */
 #wrapper div {
-  padding: 15px; }
+  padding: 15px;
+  flex: 1 1 auto; }
 
-/* line 16, C:/Users/hatch/Documents/website/p3-stand-alone-portfolio/css/styles.scss */
+/* line 17, C:/Users/hatch/Documents/website/p3-stand-alone-portfolio/css/styles.scss */
 #wrapper {
   /*    max-width:1200px;*/
   display: inline; }
 
-/* line 23, C:/Users/hatch/Documents/website/p3-stand-alone-portfolio/css/styles.scss */
+/* line 24, C:/Users/hatch/Documents/website/p3-stand-alone-portfolio/css/styles.scss */
 body {
   background: #f6e7fd;
-  margin-top: 0; }
+  margin-top: 0;
+  max-width: 800px; }
 
-/* line 28, C:/Users/hatch/Documents/website/p3-stand-alone-portfolio/css/styles.scss */
+/* line 30, C:/Users/hatch/Documents/website/p3-stand-alone-portfolio/css/styles.scss */
 h2 {
   color: white;
   background-color: black;
@@ -30,7 +32,7 @@ h2 {
   text-align: center;
   padding: .3em; }
 
-/* line 40, C:/Users/hatch/Documents/website/p3-stand-alone-portfolio/css/styles.scss */
+/* line 42, C:/Users/hatch/Documents/website/p3-stand-alone-portfolio/css/styles.scss */
 #wrapper {
   margin: 0 auto;
   display: flex;

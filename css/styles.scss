@@ -11,6 +11,7 @@ display: flex;
 
 #wrapper div{
     padding: 15px;
+    flex: 1 1 auto;
 }
 
 #wrapper{
@@ -23,6 +24,7 @@ display: flex;
 body {
     background: #f6e7fd;
     margin-top: 0;
+    max-width: 800px;
 }
 
 h2 {
