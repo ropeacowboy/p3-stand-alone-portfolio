@@ -4,7 +4,9 @@
 
 
 #wrapper {
-display: flex;
+    margin: 0 auto;
+    max-width: 900px;
+display: inline-flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
@@ -14,11 +16,11 @@ display: flex;
     flex: 1 1 auto;
 }
 
-#wrapper{
-/*    max-width:1200px;*/
-    display: inline;
-    
-}
+//#wrapper{
+///*    max-width:1200px;*/
+//    display: inline;
+//    
+//}
 
 
 body {
